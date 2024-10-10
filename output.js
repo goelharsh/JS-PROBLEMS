@@ -149,24 +149,98 @@
 
 // 19. Infinite currying
 // A curried function
-function multiply(a) {
-    return function (b) {
-      return a * b;
-    };
-  }
+// function multiply(a) {
+//     return function (b) {
+//       return a * b;
+//     };
+//   }
   
-  // Using the curried function
-  const multiplyBy2 = multiply(2);  // Returns a function
-  console.log(multiplyBy2(5));   
+//   // Using the curried function
+//   const multiplyBy2 = multiply(2);  // Returns a function
+//   console.log(multiplyBy2(5));   
 
 
 // 20. HOC function 
 
 // hoc function example 
-function greet(name, callback) {
-    return callback(name);
-}
-function sayHello(name) {
-    return `Hello, ${name}!`;
-}
-console.log(greet("John", sayHello)); 
+// function greet(name, callback) {
+//     return callback(name);
+// }
+// function sayHello(name) {
+//     return `Hello, ${name}!`;
+// }
+// console.log(greet("John", sayHello)); 
+
+
+// 21. Babel ->
+// Babel is a JavaScript compiler that transforms modern JavaScript (ES6+) code into backwards-compatible JavaScript for older browsers or environments.
+
+
+// 22.The package-lock.json file in a React.js project (or any Node.js project) is used to lock the versions of the installed dependencies. It ensures that the exact same versions of packages are installed across all environments
+
+// 23. Different types of list in HTML
+
+// -> Ordered List (<ol>):
+    
+// This type of list displays items in a specific, numbered order.
+{/* <ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ol> */}
+
+
+// -> Unordered List (<ul>):
+// This type of list displays items in no particular order, with bullet points or other markers.
+
+{/* <ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ul> */}
+
+
+// -> Description List (<dl>):
+
+// This list is used to display terms and their definitions or descriptions. It consists of pairs of <dt> (definition term) and <dd> (definition description).
+
+{/* <dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+</dl> */}
+
+
+// 24. 
+// The <em> tag emphasizes text as well as semantic meaning (for emphasis), while the <i> tag simply italicizes text without adding any semantic importance.
+
+// 25.In HTML, the following tags do not require closing tags (they are self-closing):
+
+// <br> – Line break
+// <hr> – Horizontal rule
+// <img> – Image
+// <input> – Input field
+// <meta> – Metadata
+// <link> – Link to external resources (like CSS)
+// <area> – Defines an area inside an image map
+// <source> – Specifies multiple media resources for elements like <audio> or <video>
+// <base> – Specifies a base URL for relative URLs
+// <col> – Specifies column properties for an HTML table
+// <embed> – Embeds external content (e.g., multimedia)
+// <wbr> – Suggests a line break opportunity
+
+
+// 27. In CSS, keyframes are used to create animations by defining a sequence of styles at specific points in time. They allow you to specify intermediate steps in an animation, giving you control over how an element transitions between different styles over time.
+// @keyframes slide {
+//     0% {
+//       transform: translateX(0);
+//     }
+//     100% {
+//       transform: translateX(100px);
+//     }
+//   }
+  
+//   .box {
+//     animation: slide 2s ease-in-out infinite;
+//   }
